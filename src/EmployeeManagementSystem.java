@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class EmployeeManagementSystem {
     public static void main(String[] args) throws SQLException {
+
+        //Edit userName and password of your database [mysql]
         try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/employee_management_system", "root", "Sb8407943874")) {
 
             //connection is initialized in employeeDAO to used by methods present in it
